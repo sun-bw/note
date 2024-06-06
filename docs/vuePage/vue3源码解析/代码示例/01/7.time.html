@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    // 相同数量的dom操作盒js计算操作，那一个更快
+    const length = 10000
+
+    // 增加1万个dom节点，查看耗时
+    console.time('element')
+    for(let i = 0; i < length; i++){
+        const div = document.createElement('div')
+        document.body.appendChild(div)
+    }
+    console.timeEnd('element')
+    // 增加一万js对象，
+    console.time('js') // element: 8.93505859375 ms
+    let divList = []
+    for (let i = 0; i < length; i++) {
+        const ele = {
+            type: 'div'
+        }
+        divList.push(ele)
+    }
+    console.timeEnd('js') // js: 0.31201171875 ms
+
+</script>
+</html>

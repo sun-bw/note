@@ -1,0 +1,25 @@
+{
+  "name": "note",
+  "version": "1.0.0",
+  "description": "基于VitePress的个人笔记",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/sun-bw/note.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitepress": "^1.0.0-beta.2",
+    "vue": "^3.3.4"
+  },
+  "dependencies": {
+    "element-plus": "^2.3.9",
+    "vuedraggable": "^2.24.3"
+  }
+}

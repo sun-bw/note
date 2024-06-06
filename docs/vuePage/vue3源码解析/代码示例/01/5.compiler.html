@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 引入vue -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+    <div id="app"></div>
+</body>
+<script>
+    const { compile, createApp } = Vue
+
+    // 创建一个html结构
+    const html = `<div class="test">hello compiler</div>`
+    // 利用compile函数，生成render函数结构
+    const renderFn = compile(html)
+    console.log(renderFn)
+    // 创建实例
+    const app = createApp({
+        render: renderFn
+    })
+    app.mount('#app')
+    // const app = createApp({
+    //     template: `<div>{{msg}}</div>`,
+    //     data() {
+    //         return {
+    //             msg: 'hello world'
+    //         }
+    //     }
+    // })
+</script>
+</html>

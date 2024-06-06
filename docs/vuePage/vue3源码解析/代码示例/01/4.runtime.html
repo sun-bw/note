@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 引入vue -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+</head>
+<body>
+    <div id="app">
+
+    </div>
+</body>
+
+<script>
+    console.log(222,Vue)
+    const { render, h } = Vue
+    // 生成vnode
+    const vnode = h('div', {
+        class: 'test',
+    }, 'hello render')
+    // 拿到承载的容器
+    const container = document.querySelector('#app')
+    // 渲染
+    render(vnode, container)
+
+    // 渲染那如下数据
+    // {
+    //     type: 'div',
+    //     props: {
+    //         class: 'test'
+    //     },
+    //     children: 'hello render'
+    // }
+    const vnode2 = {
+        type: 'div',
+        props: {
+            class: 'test'
+        },
+        children: 'hello render'
+    }
+    // 创建一个render函数
+    function render1(vnode) {
+        const ele = document.createElement(vnode.type)
+        // 设置属性
+        ele.setAttribute('class', vnode.props.class)
+        // 设置文本
+        ele.textContent = vnode.children
+        // 渲染
+        document.body.appendChild(ele)
+        // document.getElementById('app').appendChild(ele)
+    }
+    render1(vnode2)
+</script>
+</html>
