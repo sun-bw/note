@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
-    base: '/note/',
+    base: '/',
     title: 'Hello VitePress', // 网站title
     description: 'Just playing around.', // 描述
     lastUpdated: true, // 最后更新时间

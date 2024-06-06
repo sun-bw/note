@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as a}from"./chunks/framework.f59a8fe5.js";const l=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"cssPage/视差滚动.md","filePath":"cssPage/视差滚动.md","lastUpdated":null}'),s={name:"cssPage/视差滚动.md"};function c(r,o,n,_,d,p){return t(),a("div")}const m=e(s,[["render",c]]);export{l as __pageData,m as default};
