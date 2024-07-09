@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "基于VitePress的个人笔记",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
