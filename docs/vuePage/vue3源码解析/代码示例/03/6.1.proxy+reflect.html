@@ -1,0 +1,21 @@
+<script>
+    const p1 = {
+        lastName: '张',
+        firstName: '三',
+        get fullName() {
+            console.log(this);
+            return this.lastName + this.firstName
+        }
+    }
+
+    const proxy = new Proxy(p1, {
+        get(target, key, receiver) {
+            console.log('getter 行为被触发')
+            // return target[key]
+            return Reflect.get(target, key, receiver) // 改变this指向,触发三次getter，
+        }
+    })
+
+    console.log(proxy.fullName) // 张三
+    // 思考：getter行为应该触发几次？ 3次，但是触发了一次
+</script>

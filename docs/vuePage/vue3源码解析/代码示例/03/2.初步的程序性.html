@@ -1,0 +1,23 @@
+<script>
+    // 定义一个商品对象
+    let product = {
+        price: 10,
+        quantity: 2,
+    }
+
+    // 总价格
+    let total = 0
+
+    // 计算总价格
+    let effect = () => {
+        total = product.price * product.quantity //  product.quantity getter行为
+    }
+
+    effect()
+    console.log('总价格',total) // 20
+
+    // 修改商品数量
+    product.quantity = 5 // product.quantity setter行为
+    effect()
+    console.log('总价格',total) // 20
+</script>

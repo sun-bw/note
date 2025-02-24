@@ -7,6 +7,9 @@ export default defineConfig({
     lastUpdated: true, // 最后更新时间
     lang: 'zh-CN',
     appearance: true,
+    markdown: {
+        lineNumbers: true, // 代码块带行数
+    },
     themeConfig: {
         // 网站标题和logo
         siteTitle: "My Custom Title", // 导航title
@@ -139,6 +142,7 @@ export default defineConfig({
                     items: [
                         { text: '1.框架设计的基本概念', link: '/vuePage/vue3源码解析/1.框架设计的基本概念' },
                         { text: '2.Vue源码结构', link: '/vuePage/vue3源码解析/2.Vue源码结构' },
+                        { text: '3.响应系统', link: '/vuePage/vue3源码解析/3.响应系统' },
                     ]
                 },
             ],
