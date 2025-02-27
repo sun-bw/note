@@ -143,6 +143,7 @@ export default defineConfig({
                         { text: '1.框架设计的基本概念', link: '/vuePage/vue3源码解析/1.框架设计的基本概念' },
                         { text: '2.Vue源码结构', link: '/vuePage/vue3源码解析/2.Vue源码结构' },
                         { text: '3.响应系统', link: '/vuePage/vue3源码解析/3.响应系统' },
+                        { text: '4.reactivity模块', link: '/vuePage/vue3源码解析/4.reactivity模块' },
                     ]
                 },
             ],
