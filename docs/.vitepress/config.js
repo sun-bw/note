@@ -39,6 +39,7 @@ export default defineConfig({
                         items: [
                             { text: 'Vue', link: '/vuePage/vue2/el-table表格拖拽' },
                             { text: 'JavaScript', link: '/JavaScriptPage/通用方法' },
+                            { text: '乾坤', link: '/qiankun/1.vue3+vite微前端项目搭建' },
                             { text: 'CSS', link: '/cssPage/样式记录' },
                         ]
                     },
@@ -146,6 +147,9 @@ export default defineConfig({
                         { text: '4.reactivity模块', link: '/vuePage/vue3源码解析/4.reactivity模块' },
                     ]
                 },
+            ],
+            '/qiankun/': [
+                { text: '1.项目搭建', link: '/qiankun/1.vue3+vite微前端项目搭建' },
             ],
             '/JavaScriptPage/': [
                 {
