@@ -146,6 +146,7 @@ export default defineConfig({
                         { text: '3.响应系统', link: '/vuePage/vue3源码解析/3.响应系统' },
                         { text: '4.reactivity模块', link: '/vuePage/vue3源码解析/4.reactivity模块' },
                         { text: '5.ref模块', link: '/vuePage/vue3源码解析/5.ref模块' },
+                        { text: '6.computed && watch', link: '/vuePage/vue3源码解析/6.computed && watch' },
                     ]
                 },
             ],
