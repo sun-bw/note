@@ -148,6 +148,13 @@ export default defineConfig({
                         // { text: '5.ref模块', link: '/vuePage/vue3源码解析/5.ref模块' },
                         // { text: '6.computed && watch', link: '/vuePage/vue3源码解析/6.computed && watch' },
                         { text: '1.项目搭建', link: '/vuePage/vue3源码/1.项目搭建' },
+                        {
+                            text: '2.响应式-reactivity',
+                            collapsed: true,
+                            items: [
+                                { text: '1.响应式基础实现', link: '/vuePage/vue3源码/reactivity/1.响应式基础实现' },
+                            ]
+                        }
                     ]
                 },
             ],
