@@ -154,6 +154,7 @@ export default defineConfig({
                             items: [
                                 { text: '1.响应式基础实现', link: '/vuePage/vue3源码/reactivity/1.响应式基础实现' },
                                 { text: '2.链表', link: '/vuePage/vue3源码/reactivity/2.链表' },
+                                { text: '3.链表的应用', link: '/vuePage/vue3源码/reactivity/3.链表的应用' },
                             ]
                         }
                     ]
