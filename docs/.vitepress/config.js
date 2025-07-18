@@ -156,7 +156,8 @@ export default defineConfig({
                                 { text: '2.链表', link: '/vuePage/vue3源码/reactivity/2.链表' },
                                 { text: '3.链表的应用', link: '/vuePage/vue3源码/reactivity/3.链表的应用' },
                                 { text: '4.reactiveEffect', link: '/vuePage/vue3源码/reactivity/4.reactiveEffect' },
-                                { text: '5.dep和sub之间的双向连接', link: '/vuePage/vue3源码/reactivity/5.dep和sub之间的双向连接' }
+                                { text: '5.dep和sub之间的双向连接', link: '/vuePage/vue3源码/reactivity/5.dep和sub之间的双向连接' },
+                                { text: '6.分支切换', link: '/vuePage/vue3源码/reactivity/6.分支切换'}
                             ]
                         }
                     ]
