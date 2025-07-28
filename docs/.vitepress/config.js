@@ -158,7 +158,8 @@ export default defineConfig({
                                 { text: '4.reactiveEffect', link: '/vuePage/vue3源码/reactivity/4.reactiveEffect' },
                                 { text: '5.dep和sub之间的双向连接', link: '/vuePage/vue3源码/reactivity/5.dep和sub之间的双向连接' },
                                 { text: '6.分支切换', link: '/vuePage/vue3源码/reactivity/6.分支切换'},
-                                { text: '7.reactive实现原理', link: '/vuePage/vue3源码/reactivity/7.reactive实现原理'}
+                                { text: '7.reactive实现原理', link: '/vuePage/vue3源码/reactivity/7.reactive实现原理'},
+                                { text: '8.computed', link: '/vuePage/vue3源码/reactivity/8.computed'},
                             ]
                         }
                     ]
