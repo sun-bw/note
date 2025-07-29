@@ -152,7 +152,7 @@ export default defineConfig({
                             text: '2.响应式-reactivity',
                             collapsed: true,
                             items: [
-                                { text: '1.响应式基础实现', link: '/vuePage/vue3源码/reactivity/1.响应式基础实现' },
+                                { text: '1.响应式基础实现-ref', link: '/vuePage/vue3源码/reactivity/1.响应式基础实现' },
                                 { text: '2.链表', link: '/vuePage/vue3源码/reactivity/2.链表' },
                                 { text: '3.链表的应用', link: '/vuePage/vue3源码/reactivity/3.链表的应用' },
                                 { text: '4.reactiveEffect', link: '/vuePage/vue3源码/reactivity/4.reactiveEffect' },
@@ -160,6 +160,7 @@ export default defineConfig({
                                 { text: '6.分支切换', link: '/vuePage/vue3源码/reactivity/6.分支切换'},
                                 { text: '7.reactive实现原理', link: '/vuePage/vue3源码/reactivity/7.reactive实现原理'},
                                 { text: '8.computed', link: '/vuePage/vue3源码/reactivity/8.computed'},
+                                { text: '9.watch', link: '/vuePage/vue3源码/reactivity/9.watch'},
                             ]
                         }
                     ]
