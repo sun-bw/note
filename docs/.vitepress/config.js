@@ -161,6 +161,7 @@ export default defineConfig({
                                 { text: '7.reactive实现原理', link: '/vuePage/vue3源码/reactivity/7.reactive实现原理'},
                                 { text: '8.computed', link: '/vuePage/vue3源码/reactivity/8.computed'},
                                 { text: '9.watch', link: '/vuePage/vue3源码/reactivity/9.watch'},
+                                { text: '10.数组的响应式', link: '/vuePage/vue3源码/reactivity/10.数组的响应式'},
                             ]
                         }
                     ]
