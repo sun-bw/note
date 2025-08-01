@@ -149,7 +149,7 @@ export default defineConfig({
                         // { text: '6.computed && watch', link: '/vuePage/vue3源码解析/6.computed && watch' },
                         { text: '1.项目搭建', link: '/vuePage/vue3源码/01-项目搭建/1.项目搭建' },
                         {
-                            text: '2.响应式-reactivity',
+                            text: '2.响应式：reactivity',
                             collapsed: true,
                             items: [
                                 { text: '1.响应式基础实现-ref', link: '/vuePage/vue3源码/02-reactivity/1.响应式基础实现' },
@@ -164,7 +164,14 @@ export default defineConfig({
                                 { text: '10.数组的响应式', link: '/vuePage/vue3源码/02-reactivity/10.数组的响应式'},
                             ]
                         },
-                        { text: '3.浏览器运行时:runtime-dom', link: '/vuePage/vue3源码/03-浏览器运行时/1.浏览器运行时-runtime-dom' },
+                        { text: '3.浏览器运行时：runtime-dom', link: '/vuePage/vue3源码/03-浏览器运行时/1.浏览器运行时-runtime-dom' },
+                        {
+                            text: '4.核心运行时：runtime-core',
+                            collapsed: true,
+                            items: [
+                                { text: '1.创建虚拟DOM', link: '/vuePage/vue3源码/04-核心运行时/1.创建虚拟DOM' },
+                            ]
+                        }
                     ]
                 },
             ],
