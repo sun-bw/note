@@ -127,6 +127,7 @@ export default defineConfig({
                         { text: 'Vue自定义指令', link: '/vuePage/vue2/Vue自定义指令'},
                         { text: 'Vue图片马赛克，旋转', link: '/vuePage/vue2/Vue图片马赛克，旋转'},
                         { text: 'Vue打包后文件上传到oss', link: '/vuePage/vue2/Vue打包后文件上传到oss'},
+                        { text: '图片马赛克和裁剪', link: '/vuePage/vue2/图片马赛克和裁剪'},
                     ]
                 },
                 {
@@ -257,6 +258,7 @@ export default defineConfig({
                         { text: 'uni-app封装网络请求', link: '/uniAppPage/uni-app封装网络请求'},
                         { text: 'uni-app微信小程序图片裁剪，旋转', link: '/uniAppPage/uni-app微信小程序图片裁剪，旋转'},
                         { text: 'uni-app微信小程序图片实现滤镜效果', link: '/uniAppPage/uni-app微信小程序图片实现滤镜效果'},
+                        { text: 'uni-app微信小程序图片马赛克', link: '/uniAppPage/uni-app微信小程序图片马赛克'},
                     ]
                 }
             ],
