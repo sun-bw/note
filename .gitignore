@@ -4,6 +4,7 @@ bin-release/
 [Oo]bj/
 [Bb]in/
 node_modules
+docs/.vitepress/cache
 
 # Other files and folders
 .settings/
