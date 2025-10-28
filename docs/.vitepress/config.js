@@ -173,6 +173,14 @@ export default defineConfig({
                                 { text: '1.创建虚拟DOM', link: '/vuePage/vue3源码/04-核心运行时/1.创建虚拟DOM' },
                                 { text: '2.render中的挂载、更新、卸载', link: '/vuePage/vue3源码/04-核心运行时/2.render中的挂载、更新、卸载' },
                                 { text: '3.diff', link: '/vuePage/vue3源码/04-核心运行时/3.diff' },
+                                { text: '4.createApp',  link: '/vuePage/vue3源码/04-核心运行时/4.createApp'},
+                                {
+                                    text: '5.组件',
+                                    collapsed: true,
+                                    items: [
+                                        { text: '1.挂载', link: '/vuePage/vue3源码/05-组件/1.挂载' },
+                                    ]
+                                }
                             ]
                         }
                     ]
