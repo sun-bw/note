@@ -178,7 +178,7 @@ export default defineConfig({
                                     text: '5.组件',
                                     collapsed: true,
                                     items: [
-                                        { text: '1.挂载', link: '/vuePage/vue3源码/05-组件/1.挂载' },
+                                        { text: '1.挂载和更新', link: '/vuePage/vue3源码/05-组件/1.挂载和更新' },
                                     ]
                                 }
                             ]
