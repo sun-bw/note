@@ -179,7 +179,8 @@ export default defineConfig({
                                     collapsed: true,
                                     items: [
                                         { text: '1.挂载和更新', link: '/vuePage/vue3源码/05-组件/1.挂载和更新' },
-                                        { text: '1.属性传递', link: '/vuePage/vue3源码/05-组件/1.属性传递' },
+                                        { text: '2.属性传递', link: '/vuePage/vue3源码/05-组件/2.属性传递' },
+                                        { text: '3.代理对象', link: '/vuePage/vue3源码/05-组件/3.代理对象' },
                                     ]
                                 }
                             ]
